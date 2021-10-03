@@ -59,7 +59,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -72,3 +72,32 @@ fieldset.grupo .campo {
 #check {
     display: inline-block;
 }
+footer {
+    font-size: 1.2em;
+ 
+    border: 0;
+    margin-bottom: 1em;
+    color: #59429d;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+footer#rodape {
+	clear:  both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+footer#rodape a {
+	color: #606060;
+}
+footer#rodape a:hover {
+	color: darkred;
+}
+
