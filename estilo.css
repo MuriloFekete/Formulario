@@ -48,7 +48,7 @@ fieldset.grupo .campo {
 }
 .campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #E0E0F8
-}
+} 
 .botao {
     font-size: 1.2em;
     background: #59429d;
